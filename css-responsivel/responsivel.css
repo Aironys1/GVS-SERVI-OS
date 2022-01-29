@@ -1,0 +1,156 @@
+@media screen and (min-width:200px) and (max-width:389px){
+    .logonave{
+        width: 105px !important;
+        display: flex;
+        margin-left:-200px !important;
+        margin-top: 20px;
+    }
+    h1{
+        font-size:14px !important; ;
+    }
+
+    .barra{
+        height: 80px !important;
+    }
+    .fundo{
+        width: 100vw !important;
+        height: 200px !important;
+    }
+}
+
+@media screen and (min-width:390px) and (max-width:599px){
+    .logonave{
+        width: 120px !important;
+        display: flex;
+        margin-left:-200px !important;
+        margin-top:30px !important;
+    }
+
+    h1{
+        font-size:15px !important;
+        color: rgb(255, 255, 255) !important;
+    }
+    .barra{
+        height:80px !important;
+        max-width: 90%;
+    }
+
+    
+.email img{
+    display: flex;
+    text-align: center;
+    width:30px;
+    height:30px;
+    margin-left: 20px;
+    
+    
+}
+
+.email a {
+    color:#ffffff;
+    text-align:center;
+    padding-top: center;
+    margin-top:20px;
+    text-decoration: none;
+    font-size:12px;
+    margin-left:10px;
+
+}
+
+footer{
+    margin-top:200px;
+    border-top: 3px solid #ffffff;
+    background-color:#333030;
+}
+
+
+ 
+}
+
+
+
+@media screen and (max-width:800px) {
+    .menu{
+        display:flex;
+        flex-direction:column;
+        padding-bottom:50px;
+        
+    }
+
+     li a{
+        font-size:25px !important;
+    }
+
+    .logonave{
+        width: 140px;
+        display: flex;
+        margin-left:-300px;
+        margin-top: 20px;
+    }
+
+    .fundo{
+        width: 100%;
+        height:200px;
+    }
+
+    .barra{
+        height:100px;
+        margin:20px;
+    }
+
+
+
+    h1{
+        font-size:20px;
+        margin-top:-65px;
+
+    }
+
+    .container-servicos img{
+        width:100px;
+    }
+  
+
+    .container-servicos2 img{
+        width:150px;
+    }
+
+    p{
+        font-size:15px;
+        text-align: justify;
+        
+    }
+
+    footer{
+        margin-bottom:40px;
+    }
+  
+}
+
+@media screen and (min-width:801px) and (max-width:1700px) {
+    .fundo{
+        width: 100%;
+        height:400px;
+    }
+
+    
+
+    .logonave{
+        width: 130px;
+        margin-left:100px !important;
+
+    }
+
+    .barra{
+        height:150px;
+        margin:20px;
+    }
+
+
+
+    h1{
+        font-size:20px;
+        margin-top:-65px;
+
+    }
+}
