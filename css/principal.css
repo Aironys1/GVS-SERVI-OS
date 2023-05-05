@@ -124,7 +124,7 @@ h2{
     font-size:30px;
     padding:20px;
     margin-top:50px;
-    color: white;
+    color: #333030;
    
 }
 
@@ -189,16 +189,17 @@ h2{
 
 /*Galeria de Fotos*/ 
 .meu-carrossel{
-    background-color: #ffffff;
+    background-color:#d9dfd5;
     display: flex;
     justify-content: center;
     margin:1px;
+    max-height: 500px;
 }
 .meu-carrossel img {
-    padding: 10px;
-  max-width: 500px;
-  max-height: 500px;
+  width: auto;
   border-radius: 20px;
+  width: 500px;
+  border: 5px solid #333030;
 }
 
 
@@ -241,7 +242,7 @@ footer{
 
     .contatos {
         display: block;
-        padding: 5px;
+        padding:1px;
     }
     .contatos div{
         text-align: center;
