@@ -134,9 +134,7 @@ h2{
 .container-servicos{
     display: flex;
     flex-wrap: wrap;
-
     border: 5px solid rgb(255, 255, 255);
-    background-color:#333030;
     border-radius:20px;
     margin:20px;
     padding:20px;
@@ -153,17 +151,25 @@ h2{
 
 .container-servicos2 h4{
     margin: 20px;
+    text-align: center;
 }
 
+.container-servicos2 img{
+    margin: 20px;
+    border-radius: 20px;
+}
+
+
+
 .galeria1, .galeria2, .galeria3, .galeria4{
-    width:300px;
+    width:400px;
 }
 
 .servicos-conteudo{
     background-color:#333030;
     border-radius:20px;
     display: flex;
-    margin: 50px auto;
+    margin:10px auto;
     align-items: center;
 
 }
@@ -172,21 +178,12 @@ h2{
 
 .servicos-conteudo h4{
     color: #ffffff;
-    font-size:20px;
-    margin-left: 10px;
+    font-size:2rem;
 }
 
 
 
 
-/*Videos*/
-
-.videos{
-    background-color: #333030;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
 
 
 /*Galeria de Fotos*/ 
@@ -195,14 +192,35 @@ h2{
     display: flex;
     justify-content: center;
     margin:1px;
-    max-height: 500px;
+    
 }
 .meu-carrossel img {
-  width: auto;
   border-radius: 20px;
-  width: 500px;
   border: 5px solid #333030;
+  margin: 10px auto;
+  height: 500px;
+
+
 }
+
+/*Videos*/
+
+.videos{
+    background-color: #333030;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.videos video{
+    width: 400px;
+    background-color: #000000;
+    margin: 5px;
+    border-radius: 20px;
+
+}
+
 
 
 .contatos{
@@ -235,11 +253,23 @@ footer{
 
 
 @media (max-width: 600px){
+  
     .meu-carrossel img {
-        padding: 10px;
-      max-width: 300px;
+      width: 100%;
       max-height: 300px;
       border-radius: 20px;
+      margin:10px;
+    }
+   
+    .servicos-conteudo{
+        background-color: #000000;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .servicos-conteudo div img{
+        width:87%;
+        
     }
 
     .contatos {
@@ -248,6 +278,10 @@ footer{
     }
     .contatos div{
         text-align: center;
+    }
+
+    footer{
+        margin-top: 10px !important;
     }
   
 }
